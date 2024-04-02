@@ -9,7 +9,7 @@ html, body {
   height: 100%;
 }
 
-/*SECTION 1 BANNER */
+/*SECTION 1 */
 .banner{
     background-color: #1A1B13;
      /*background-color: #2B310C;*/
@@ -55,6 +55,7 @@ a{
 .banner-content img, .banner-text{
     margin: 50px 150px 200px 150px;
     flex-wrap: wrap;
+    border-radius: 15px;
 
 }
 
@@ -81,7 +82,43 @@ a{
     font-size: 18px;
     width: 150px;
     font-weight: bold;
+    border: none;
 
+}
+
+.banner-content button:hover{
+    cursor: pointer;
+    background-color: rgb(209, 209, 209);
+}
+
+/* SECTION 2 */
+
+.info h2{
+    margin: 50px;
+    font-size: 36px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.info-places{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.info-places div img{
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px 0px rgb(195, 195, 195);
+    margin-bottom: 30px;
+}
+
+.info-places div h5{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 
